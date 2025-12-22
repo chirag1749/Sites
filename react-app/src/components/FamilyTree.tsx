@@ -27,17 +27,24 @@ export default class FamilyTree extends Component<FamilyTreeProps> {
     }));
 
     console.log("[DEBUG] Formatted Data:", formattedData);
+    const mainId = 'b4e33c68-20a7-47ba-9dcc-1168a07d5b52';
 
     const f3Chart = f3
       .createChart("#FamilyChart", formattedData)
       .setTransitionTime(1000)
       .setCardXSpacing(250)
-      .setCardYSpacing(150);
+      .setCardYSpacing(150)
+      .setSingleParentEmptyCard(false)
+      .setAncestryDepth(1)
+      .setProgenyDepth(1);
 
-    const f3Card = f3Chart.setCardHtml().setCardDisplay([
+    const f3Card = f3Chart.setCardHtml()
+    .setCardDisplay([
       ["first name", "last name"],
       ["birthday"],
-    ]);
+    ])
+    .setMiniTree(true)
+    .setOnHoverPathToMain();
 
     const f3EditTree = f3Chart
       .editTree()
@@ -45,10 +52,33 @@ export default class FamilyTree extends Component<FamilyTreeProps> {
       .setEditFirst(true) // Open form on click
       .setCardClickOpen(f3Card);
 
+    const baseCardClick = f3Card.onCardClick;      
+
+    // Add click event to each card to log name and id
+    f3Card.setOnCardClick(function (e: MouseEvent, d: any) {
+
+      //const firstName = d?.data?.data?.["first name"] || "";
+      //const lastName = d?.data?.data?.["last name"] || "";
+      const id = d?.data?.id || "";
+      console.log(d);
+      baseCardClick.call(f3Card, e, d);
+      
+      if (d.data.rels.children.length > 7) {
+        f3Chart.setProgenyDepth(1);
+      }
+      else
+      {
+        f3Chart.setProgenyDepth(3);
+      }
+
+      f3Chart.updateTree();
+      //console.log("[CARD CLICK F3 RAW:", f3Chart);
+    });
+
     // Uncomment the following line to disable editing and only show info
     // .setNoEdit();
-
-    f3EditTree.open(f3Chart.getMainDatum());
+    f3Chart.updateMainId(mainId)
+    //f3EditTree.open(f3Chart.getMainDatum());
     f3Chart.updateTree({ initial: true });
 
     // Add Save button to f3-history control
