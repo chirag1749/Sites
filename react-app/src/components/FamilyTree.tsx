@@ -12,7 +12,7 @@ export default class FamilyTree extends Component<FamilyTreeProps> {
 
   componentDidMount() {
     if (!this.cont.current) return;
-    fetch("/data/family.json")
+    fetch("/Sites/data/family.json")
       .then((res) => res.json())
       .then((data) => this.create(data))
       .catch((err) => console.error(err));
