@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://chirag1749.github.io/Sites",
   "scripts": {
     "dev": "vite",
     "dev:api": "node server.js",
