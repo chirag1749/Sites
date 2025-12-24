@@ -394,6 +394,9 @@
       "birthday": ""
     },
     "rels": {
+      "spouses": [
+        "b381a357-6bf5-453c-9319-5f1c921d6633"
+      ],
       "parents": [
         "2f9cf1d3-df01-43b1-8a42-d76509d035f6",
         "afa0b688-d58c-4410-beb6-552f99b10e26"
@@ -2809,6 +2812,25 @@
     "rels": {
       "spouses": [
         "98e4eec8-ab5f-4205-b004-b530964a7be6"
+      ]
+    },
+    "father": "",
+    "mother": "",
+    "spouses": [],
+    "children": []
+  },
+  {
+    "id": "b381a357-6bf5-453c-9319-5f1c921d6633",
+    "data": {
+      "gender": "M",
+      "first name": "Nathan",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": [
+        "c7e529b2-2e8d-49c1-9858-831a02d38156"
       ]
     }
   }
