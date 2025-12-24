@@ -1,3 +1,35 @@
 .family-tree-override{
     max-height: none !important;
+    background-color: rgb(33,33,33);
+    color: #fff;
+    overflow: auto;
+    width: 100vw;
+    height: 100vh;
+}
+
+#FamilyChart {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    display: block;
+}
+
+/* Responsive container for the family tree */
+.family-tree-container {
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: auto;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+
+/* Responsive text and layout for mobile */
+@media (max-width: 600px) {
+    .family-tree-container {
+        padding: 0.5rem;
+    }
+    .family-tree-override {
+        font-size: 14px;
+    }
+    /* Add more mobile-specific styles as needed */
 }
