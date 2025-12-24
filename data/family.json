@@ -909,6 +909,9 @@
       "birthday": ""
     },
     "rels": {
+      "spouses": [
+        "a90609c7-64b0-4143-8595-00a20430596d"
+      ],
       "parents": [
         "b4e33c68-20a7-47ba-9dcc-1168a07d5b52",
         "ce2fcb9a-6058-4326-b56a-aced35168561"
@@ -2793,5 +2796,20 @@
     "mother": "",
     "spouses": [],
     "children": []
+  },
+  {
+    "id": "a90609c7-64b0-4143-8595-00a20430596d",
+    "data": {
+      "gender": "F",
+      "first name": "Kapila",
+      "last name": "",
+      "birthday": "",
+      "avatar": ""
+    },
+    "rels": {
+      "spouses": [
+        "98e4eec8-ab5f-4205-b004-b530964a7be6"
+      ]
+    }
   }
 ]
