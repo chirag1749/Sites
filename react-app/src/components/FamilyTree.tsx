@@ -9,6 +9,7 @@ export default class FamilyTree extends Component<FamilyTreeProps> {
   private cont = React.createRef<HTMLDivElement>();
   isInEditMode = false;
   showChildrenSpouses = false;
+  f3Chart: any = null;
 
   componentDidMount() {
     if (!this.cont.current) return;
@@ -102,14 +103,50 @@ export default class FamilyTree extends Component<FamilyTreeProps> {
     console.log("[DEBUG] Formatted Data:", formattedData);
     
 
-    const f3Chart = f3
+    const isMobile = window.innerWidth <= 600;
+    let chartBuilder = f3
       .createChart("#FamilyChart", formattedData)
       .setTransitionTime(1000)
       .setCardXSpacing(250)
-      .setCardYSpacing(150)
+      .setCardYSpacing(120)
       .setSingleParentEmptyCard(false)
       .setAncestryDepth(1)
       .setProgenyDepth(1);
+    if (isMobile && window.innerHeight > window.innerWidth) {
+      chartBuilder = chartBuilder.setOrientationHorizontal();
+    } else if (isMobile && window.innerWidth >= window.innerHeight) {
+      if (typeof chartBuilder.setOrientationVertical === 'function') {
+        chartBuilder = chartBuilder.setOrientationVertical();
+      }
+    }
+    this.f3Chart = chartBuilder;
+    const f3Chart = this.f3Chart;
+
+    // Listen for orientation change or resize and rebuild chart with correct orientation
+    if (isMobile) {
+      window.addEventListener('resize', () => {
+        if (!this.f3Chart) return;
+        if (window.innerHeight > window.innerWidth) {
+          if (typeof this.f3Chart.setOrientationHorizontal === 'function') {
+            this.f3Chart.setOrientationHorizontal();
+            this.f3Chart.updateTree();
+          }
+        } else {
+          if (typeof this.f3Chart.setOrientationVertical === 'function') {
+            this.f3Chart.setOrientationVertical();
+            this.f3Chart.updateTree();
+          }
+        }
+        // Center the chart after orientation change
+        setTimeout(() => {
+          const chartDiv = document.getElementById('FamilyChart');
+          if (chartDiv && chartDiv.parentElement) {
+            //chartDiv.parentElement.scrollLeft = (chartDiv.scrollWidth - chartDiv.parentElement.clientWidth) / 2;
+            chartDiv.parentElement.scrollTop = (chartDiv.scrollHeight - chartDiv.parentElement.clientHeight) / 2;
+          }
+        }, 300);
+      });
+    }
 
     const f3Card = f3Chart.setCardHtml()
     .setCardDisplay([
@@ -256,18 +293,20 @@ export default class FamilyTree extends Component<FamilyTreeProps> {
 
   render() {
     return (
-      <div
-        className="f3"
-        id="FamilyChart"
-        ref={this.cont}
-        style={{
-          width: "100%",
-          height: "900px",
-          margin: "auto",
-          backgroundColor: "rgb(33,33,33)",
-          color: "#fff",
-        }}
-      ></div>
+      <div className="family-tree-container">
+        <div
+          className="f3"
+          id="FamilyChart"
+          ref={this.cont}
+          style={{
+            width: "100%",
+            height: "900px",
+            margin: "auto",
+            backgroundColor: "rgb(33,33,33)",
+            color: "#fff",
+          }}
+        ></div>
+      </div>
     );
   }
 }
