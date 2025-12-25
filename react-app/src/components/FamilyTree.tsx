@@ -3,7 +3,7 @@ import * as d3 from "d3"; // npm install d3 or yarn add d3
 import * as f3 from "family-chart"; // npm install family-chart@0.9.0 or yarn add family-chart@0.9.0
 import "family-chart/styles/family-chart.css";
 
-interface FamilyTreeProps {}
+interface FamilyTreeProps { }
 
 export default class FamilyTree extends Component<FamilyTreeProps> {
   private cont = React.createRef<HTMLDivElement>();
@@ -12,6 +12,10 @@ export default class FamilyTree extends Component<FamilyTreeProps> {
   f3Chart: any = null;
 
   componentDidMount() {
+    // Set edit mode from query string
+    const params = new URLSearchParams(window.location.search);
+    this.isInEditMode = params.get("edit") === "true";
+
     if (!this.cont.current) return;
     fetch("/Sites/data/family.json")
       .then((res) => res.json())
@@ -22,7 +26,7 @@ export default class FamilyTree extends Component<FamilyTreeProps> {
   create(data: any) {
     const mainIdSpouse = 'b4e33c68-20a7-47ba-9dcc-1168a07d5b52';
     const mainId = 'ce2fcb9a-6058-4326-b56a-aced35168561';
-    
+
     // Helper to clean up rels arrays so they only contain valid ids
     const validIds = new Set(data.map((n: any) => n.id));
     const cleanRels = (rels: any) => {
@@ -37,7 +41,7 @@ export default class FamilyTree extends Component<FamilyTreeProps> {
 
     // Helper to get formatted data
     function getFormattedData(inputData: any[], showChildrenSpouses: boolean) {
-      
+
       if (showChildrenSpouses) {
         return inputData.map((node: any) => ({
           ...node,
@@ -48,8 +52,7 @@ export default class FamilyTree extends Component<FamilyTreeProps> {
           rels: cleanRels(node.rels)
         }));
       }
-      else
-      {
+      else {
         return inputData.map((node: any) => {
           const isChild = node.rels && Array.isArray(node.rels.parents) && node.rels.parents.length > 0;
           const isMain = node.id === mainId || node.id === mainIdSpouse;
@@ -65,7 +68,7 @@ export default class FamilyTree extends Component<FamilyTreeProps> {
                 ...node.rels,
                 spouses: node.rels.spouses || []
               }
-            };  
+            };
           } else if (isChild) {
             return {
               ...node,
@@ -94,14 +97,14 @@ export default class FamilyTree extends Component<FamilyTreeProps> {
         });
       }
     }
-    
-    if(this.isInEditMode) {
+
+    if (this.isInEditMode) {
       this.showChildrenSpouses = true;
     }
     let formattedData = getFormattedData(data, this.showChildrenSpouses);
 
     console.log("[DEBUG] Formatted Data:", formattedData);
-    
+
 
     const isMobile = window.innerWidth <= 600;
     let chartBuilder = f3
@@ -149,22 +152,21 @@ export default class FamilyTree extends Component<FamilyTreeProps> {
     }
 
     const f3Card = f3Chart.setCardHtml()
-    .setCardDisplay([
-      ["first name", "last name"],
-      ["birthday"],
-    ])
-    .setMiniTree(true)
-    .setOnHoverPathToMain();
+      .setCardDisplay([
+        ["first name", "last name"],
+        ["birthday"],
+      ])
+      .setMiniTree(true)
+      .setOnHoverPathToMain();
 
     const f3EditTree = f3Chart.editTree()
       .setFields(["first name", "last name", "birthday", "avatar"])
       .setEditFirst(true);
 
-    if(!this.isInEditMode) {
+    if (!this.isInEditMode) {
       f3EditTree.setNoEdit();
     }
-    else
-    {
+    else {
       f3EditTree.setCardClickOpen(f3Card);
     }
 
@@ -177,26 +179,23 @@ export default class FamilyTree extends Component<FamilyTreeProps> {
       //const lastName = d?.data?.data?.["last name"] || "";
       const id = d?.data?.id || "";
       baseCardClick.call(f3Card, e, d);
-      
-     if (d.data.rels.children.length > 7 || id === "0") {
+
+      if (d.data.rels.children.length > 7 || id === "0") {
         f3Chart.setProgenyDepth(1);
-        if (id === "0")
-        {
+        if (id === "0") {
           this.showChildrenSpouses = true;
         }
-        else
-        {
+        else {
           this.showChildrenSpouses = false;
         }
-        
+
       }
-      else
-      {
+      else {
         f3Chart.setProgenyDepth(3);
         this.showChildrenSpouses = true;
       }
-      
-      if(!this.isInEditMode) {
+
+      if (!this.isInEditMode) {
         formattedData = getFormattedData(data, this.showChildrenSpouses);
         f3Chart.updateData(formattedData);
       }
@@ -204,7 +203,7 @@ export default class FamilyTree extends Component<FamilyTreeProps> {
       f3Chart.updateTree();
       //console.log("[CARD CLICK F3 RAW:", f3Chart);
     });
-    
+
     f3Chart.updateMainId(mainIdSpouse)
     //f3EditTree.open(f3Chart.getMainDatum());
     f3Chart.updateTree({ initial: true });
@@ -253,12 +252,12 @@ export default class FamilyTree extends Component<FamilyTreeProps> {
       saveButton.addEventListener("click", () => {
         // Export tree data
         const treeData = f3EditTree.exportData();
-        
+
         // Update filtering logic to check for first and last name inside node.data
         const filteredTreeData = treeData.filter(
           (node: any) => node.data && (node.data["first name"] || node.data["last name"])
         );
-        
+
         // Prevent saving if filteredTreeData is empty
         if (filteredTreeData.length === 0) {
           console.error("[ERROR] No valid nodes to save. Ensure all nodes have both first and last names.");
