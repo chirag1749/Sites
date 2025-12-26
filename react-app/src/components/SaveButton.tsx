@@ -1,33 +1,9 @@
 import { useEffect } from "react";
+import "./SaveButton.css";
 
 interface SaveButtonProps {
   f3Chart: any;
 }
-
-const saveButtonStyle: React.CSSProperties = {
-  display: "inline-flex",
-  alignItems: "center",
-  justifyContent: "center",
-  marginLeft: "8px",
-  position: "absolute",
-  backgroundColor: "rgb(33,33,33)",
-  color: "white",
-  border: "none",
-  fontSize: "20px",
-  width: "40px",
-  height: "30px",
-  boxShadow: "none",
-  cursor: "pointer",
-  zIndex: 10
-};
-
-const iconStyle: React.CSSProperties = {
-  fontSize: "20px",
-  color: "white",
-  display: "flex",
-  alignItems: "center",
-  justifyContent: "center"
-};
 
 export default function SaveButton({ f3Chart }: SaveButtonProps) {
   useEffect(() => {
@@ -39,11 +15,9 @@ export default function SaveButton({ f3Chart }: SaveButtonProps) {
         if (existing) return;
         // Create save button
         const saveButton = document.createElement("button");
-        saveButton.className = "f3-save-button f3-btn";
-        Object.assign(saveButton.style, saveButtonStyle);
+        saveButton.className = "f3-save-button f3-btn custom-save-btn";
         const saveIcon = document.createElement("i");
-        saveIcon.className = "fa-solid fa-floppy-disk";
-        Object.assign(saveIcon.style, iconStyle);
+        saveIcon.className = "fa-solid fa-floppy-disk custom-save-icon";
         saveButton.appendChild(saveIcon);
         saveButton.title = "Save Family Tree";
         saveButton.onclick = async () => {
@@ -87,12 +61,12 @@ export default function SaveButton({ f3Chart }: SaveButtonProps) {
         // Remove all but the first .f3-history-controls if they have 2 or fewer child elements
         const controls = navCont.querySelectorAll('.f3-history-controls');
         controls.forEach((ctrl, idx) => {
-          console.log(`[DEBUG] Checking .f3-history-controls #${idx} with ${ctrl.children.length} children`, ctrl);
+          //console.log(`[DEBUG] Checking .f3-history-controls #${idx} with ${ctrl.children.length} children`, ctrl);
           // Only remove if idx > 0 and ctrl has 2 or fewer children and is not visible (opacity: 0 or pointer-events: none)
           const style = window.getComputedStyle(ctrl);
           const isHidden = style.opacity === "0" || style.pointerEvents === "none";
           if (ctrl.parentNode && ctrl.children.length <= 2 && isHidden) {
-            console.log(`[DEBUG] Attempting to remove .f3-history-controls #${idx} (hidden)`);
+            //console.log(`[DEBUG] Attempting to remove .f3-history-controls #${idx} (hidden)`);
             try {
               ctrl.remove();
               console.log(`[DEBUG] Actually removed .f3-history-controls #${idx}`);
