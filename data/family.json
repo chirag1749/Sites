@@ -977,7 +977,7 @@
       "first name": "Rajni",
       "last name": "",
       "birthday": "",
-      "avatar": "/data/Rajni.png"
+      "avatar": "data/Rajni.png"
     },
     "rels": {
       "spouses": [
@@ -1004,7 +1004,7 @@
       "first name": "Manhar",
       "last name": "",
       "birthday": "",
-      "avatar": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/464134435_8648196725262737_4890999386004776517_n.jpg?stp=dst-jpg_s552x414_tt6&_nc_cat=102&ccb=1-7&_nc_sid=50c75d&_nc_ohc=w1DcjsUM8T0Q7kNvwHYCm1U&_nc_oc=AdkaszbJoKFKLbxw7Fvg002i_hwqeM_oRhso5g6MrS4L9HQdp99V8TpvE1KY-e5ql0Sd6a6nRc651vaYKRuvMCWs&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=KwZ1cyfI2e1fVHlEod81Hg&oh=00_AfloCg9lR3GQemV6_us1mlV7L7h-dLcEq5vozJ8HXB0oyw&oe=6956064C"
+      "avatar": "data/Manhar.png"
     },
     "rels": {
       "spouses": [
@@ -2454,7 +2454,8 @@
       "gender": "F",
       "first name": "Arya",
       "last name": "",
-      "birthday": ""
+      "birthday": "",
+      "avatar": "data/Arya.png"
     },
     "rels": {
       "parents": [
@@ -2494,7 +2495,7 @@
       "first name": "Smruti",
       "last name": "",
       "birthday": "",
-      "avatar": "https://media.licdn.com/dms/image/v2/C4E03AQFQvMMDLi-ZAQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1530585580368?e=1768435200&v=beta&t=OazmZP3lWfM50ScgM_35oBFwqXqcQRgD8ooybwMGTZY"
+      "avatar": "data/Smruti.png"
     },
     "rels": {
       "spouses": [
