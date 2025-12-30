@@ -2546,7 +2546,7 @@
       "first name": "Dixita",
       "last name": "",
       "birthday": "",
-      "avatar": "https://media.licdn.com/dms/image/v2/C4E03AQFZPzGC2ib5YA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1622945270115?e=1768435200&v=beta&t=_IQjTLkqrugz1TRsC1KABYgGCHEML24r-9uaOg8E_rg"
+      "avatar": "data/Dixita.png"
     },
     "rels": {
       "spouses": [
@@ -2663,7 +2663,7 @@
       "first name": "Vimal",
       "last name": "Vyas",
       "birthday": "",
-      "avatar": "https://scontent-lga3-3.xx.fbcdn.net/v/t1.6435-9/38430099_10156623019913624_5367049944068784128_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=kiHylpP9sZYQ7kNvwEhwss2&_nc_oc=Adk0ltaF_2eEiyfEEooa-wb03XzUnb341SGtkfKG91FhOCyr4o1EEZxGR9gh8ZhbRlb3PesTamu_NywGWNw83cEI&_nc_zt=23&_nc_ht=scontent-lga3-3.xx&_nc_gid=93-3V4AeiuhOX0I2jxeCiw&oh=00_Afleku-fFgF3SZL6ELJ4gM60-WKFpckDVehpDLDnp5bRcw&oe=6977B150"
+      "avatar": "data/Vimal.png"
     },
     "rels": {
       "spouses": [
@@ -2781,7 +2781,8 @@
       "gender": "M",
       "first name": "Kishan",
       "last name": "",
-      "birthday": ""
+      "birthday": "",
+      "avatar": "data/Kishan.png"
     },
     "rels": {
       "parents": [
