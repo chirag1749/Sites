@@ -296,7 +296,7 @@
       "first name": "Dharmista",
       "last name": "",
       "birthday": "",
-      "avatar": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/344640477_155722740552390_8775695682437246926_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=105&ccb=1-7&_nc_sid=e99d92&_nc_ohc=VCJ-I6cbB1sQ7kNvwGBTplY&_nc_oc=AdlAu5vf6WPDANl8eP5fiX3bz34TW2eE-Y4Qu_qcuAnj7HokBAwC-ukqnhTWxi9bZ6dfj0XiYfAmEf9oeMOYf4eE&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=YD1dVvK2sVeLkCpm6VdRWw&oh=00_AfnNqJ319vxsf8fmvYRlolXCPxC2Z78nB8-NTJM0QH-NaQ&oe=69561819"
+      "avatar": "data/Dharmista.png"
     },
     "rels": {
       "spouses": [
@@ -377,7 +377,7 @@
       "first name": "Dushyant",
       "last name": "",
       "birthday": "",
-      "avatar": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/464015675_8873143899373823_7976029292626076887_n.jpg?stp=c0.106.640.640a_dst-jpg_s552x414_tt6&_nc_cat=105&ccb=1-7&_nc_sid=f072d4&_nc_ohc=WUfRdiV1euIQ7kNvwFbD1Ct&_nc_oc=AdkNwOdV0_iAfJYVOzXRry3gU8L_soQWAEKsvC6lkGIaTjJjsGFtfWRYzT8uEOn5NPng5w5CB16qyTo4mJyxdbpZ&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=Vfa5qCX7B-YEhu6JOvuY6g&oh=00_AfkuWlm1E01cNCQeovRqGBppDeXASrBnopK3vnFBWLGexg&oe=69563334"
+      "avatar": "data/Dushyant.png"
     },
     "rels": {
       "spouses": [
@@ -420,7 +420,7 @@
       "first name": "Amy",
       "last name": "",
       "birthday": "",
-      "avatar": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/464057264_8871496579538555_5895394683528114265_n.jpg?stp=c0.106.640.640a_dst-jpg_s552x414_tt6&_nc_cat=105&ccb=1-7&_nc_sid=50ad20&_nc_ohc=FXc6a-JSHUMQ7kNvwGpzMtV&_nc_oc=Adk4WQjdOoKo-IhQWQ0ldVMz1uDeo7gmShKZLqXHoE-TAj2CRqQEO2CxUoqoQ_iXSLRwmql8VLoJBOqt08JMaZfA&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=H-rerpKS5l8U6YVSPu2NRQ&oh=00_AfnD4k_mqmfYm5wqRfY6dRTGt5BNNLpe1XbDjxRqS7er6g&oe=6956070E"
+      "avatar": "data/Amy.png"
     },
     "rels": {
       "spouses": [
@@ -443,7 +443,7 @@
       "first name": "Mital",
       "last name": "",
       "birthday": "",
-      "avatar": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/494519816_3314313155378264_8222480481619372969_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=cf85f3&_nc_ohc=PWAoazkTDVcQ7kNvwEvCGpU&_nc_oc=AdnIQArblLacQ174sUve1tJOMkdCrzCtK03udI64NPIIaTGgRcUqeV6YjFzFwgVac74GvDWrMXiQF9EdpffT9KCh&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=X_y-HTEQoT7knYkkAfZH6g&oh=00_Afk1iqUirpNB36EKMbZoebwHFQ-riJ4NQ4P32K-S6AwQng&oe=69563312"
+      "avatar": "data/Mita.png"
     },
     "rels": {
       "spouses": [
@@ -508,7 +508,8 @@
       "gender": "F",
       "first name": "Sejal",
       "last name": "",
-      "birthday": ""
+      "birthday": "",
+      "avatar": "data/Sejal.png"
     },
     "rels": {
       "spouses": [
@@ -530,7 +531,8 @@
       "gender": "F",
       "first name": "Shivani",
       "last name": "",
-      "birthday": ""
+      "birthday": "",
+      "avatar": "data/Shivani.png"
     },
     "rels": {
       "parents": [
@@ -549,7 +551,8 @@
       "gender": "M",
       "first name": "Dillan",
       "last name": "",
-      "birthday": ""
+      "birthday": "",
+      "avatar": "data/Dillan.png"
     },
     "rels": {
       "parents": [
@@ -592,7 +595,8 @@
       "gender": "M",
       "first name": "Jitendra",
       "last name": "",
-      "birthday": ""
+      "birthday": "",
+      "avatar": "data/Jiten.png"
     },
     "rels": {
       "spouses": [
@@ -618,7 +622,7 @@
       "first name": "Pankaj",
       "last name": "",
       "birthday": "",
-      "avatar": "https://scontent-lga3-3.xx.fbcdn.net/v/t39.30808-6/499072853_10228537067359909_1485575883146681916_n.jpg?stp=c0.139.540.540a_dst-jpg_s552x414_tt6&_nc_cat=108&ccb=1-7&_nc_sid=714c7a&_nc_ohc=bRIlrNNSncsQ7kNvwHHzNR5&_nc_oc=Adnh_3JTR524YLDoZzcJYQTOx6hlSqTOVUc1-MDQo40UnaJT9vgLffQMzv3d2fRHxs0K-1rXk7O0qbyq0v5B3ad7&_nc_zt=23&_nc_ht=scontent-lga3-3.xx&_nc_gid=dqLt0FX5762ttm-G1T1xJQ&oh=00_Afn5Z4bPFXKviMjcp1DhmxRl8_9am2VSQhGexWh0tzF1Ow&oe=69561047"
+      "avatar": "data/Pankaj.png"
     },
     "rels": {
       "spouses": [
@@ -644,7 +648,8 @@
       "gender": "F",
       "first name": "Baku",
       "last name": "",
-      "birthday": ""
+      "birthday": "",
+      "avatar": "data/Baku.png"
     },
     "rels": {
       "spouses": [
@@ -691,7 +696,8 @@
       "gender": "M",
       "first name": "Sachin",
       "last name": "",
-      "birthday": ""
+      "birthday": "",
+      "avatar": "data/Sachin.png"
     },
     "rels": {
       "parents": [
@@ -733,7 +739,8 @@
       "gender": "F",
       "first name": "Monique",
       "last name": "",
-      "birthday": ""
+      "birthday": "",
+      "avatar": "data/Monique.png"
     },
     "rels": {
       "parents": [
@@ -752,7 +759,8 @@
       "gender": "F",
       "first name": "Nikki",
       "last name": "",
-      "birthday": ""
+      "birthday": "",
+      "avatar": "data/Nikki.png"
     },
     "rels": {
       "parents": [
@@ -771,7 +779,8 @@
       "gender": "M",
       "first name": "Bipin",
       "last name": "",
-      "birthday": ""
+      "birthday": "",
+      "avatar": "data/Bipin.png"
     },
     "rels": {
       "spouses": [
@@ -813,7 +822,8 @@
       "gender": "M",
       "first name": "Ronnie",
       "last name": "",
-      "birthday": ""
+      "birthday": "",
+      "avatar": "data/Ronnie.png"
     },
     "rels": {
       "parents": [
@@ -833,7 +843,7 @@
       "first name": "Desai",
       "last name": "",
       "birthday": "",
-      "avatar": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/506640052_30018554047792918_431661061338952945_n.jpg?stp=c256.0.1536.1536a_dst-jpg_s552x414_tt6&_nc_cat=105&ccb=1-7&_nc_sid=db443f&_nc_ohc=3q9Cdhz3ZkoQ7kNvwF4aybt&_nc_oc=Adm9S79khLU6CLJXeJpOGAJhvXk6UibMqx3sbOnWc-LJ5EDNOFCLaPlUUhh4SHVgb50i85hsiQ6fv7Iv4m-dGcCl&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=hVIttPDH3CKyiHnnRF575A&oh=00_AfkbFXQlsIpWHC7c4KfjzPaBTfHANXtlY0uX9hjDtLkLIw&oe=69563554"
+      "avatar": "data/Desai.png"
     },
     "rels": {
       "spouses": [
@@ -917,7 +927,7 @@
       "first name": "Lali",
       "last name": "",
       "birthday": "",
-      "avatar": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/462493609_8567564539992623_5969302430888976103_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=cf85f3&_nc_ohc=sXfdOHqefFkQ7kNvwG9q4un&_nc_oc=AdkLrZaf0pPSCh-u2agkVndi_Ipy_kUncl5PBalxtJi7-jJIpEdk0c8vhLQSlqiyysWHkGjh_okkvoNzN2hoQu5z&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=BND1B-8LtL9ooBFWc6TPsw&oh=00_AfmZgw_oD4qXFVWi-96EgQa5TyY78CfeayGWLRiNJLboug&oe=695615A5"
+      "avatar": "data/Lali.png"
     },
     "rels": {
       "spouses": [
@@ -967,7 +977,7 @@
       "first name": "Rajni",
       "last name": "",
       "birthday": "",
-      "avatar": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/467395670_9090520120999719_5199102150163271021_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=f727a1&_nc_ohc=fnn9_WwUzs0Q7kNvwFR75S8&_nc_oc=AdnXSLhx1MNemU4g1PYBGEnZXXvOMki9_Uz9bFiGI-_NTVvCkIc2m6r5obnfmPCcBZPCDi-gDRSmnvHAvFE2dB0H&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=oxlm8uBm_qOGKS7wW7F-Og&oh=00_AflFQYbvsORlTdIzubpeFKnA8a0J6Vk0Rq6Uu1d8_caR0g&oe=69561E51"
+      "avatar": "/data/Rajni.png"
     },
     "rels": {
       "spouses": [
@@ -1049,7 +1059,7 @@
       "first name": "Kapila",
       "last name": "",
       "birthday": "",
-      "avatar": "https://scontent-lga3-3.xx.fbcdn.net/v/t39.30808-6/473547065_2393960147613480_1671515900054120713_n.jpg?stp=c0.79.720.720a_dst-jpg_s552x414_tt6&_nc_cat=106&ccb=1-7&_nc_sid=52bb43&_nc_ohc=ySSttmE-QNkQ7kNvwEgSk7Z&_nc_oc=AdkwgV6qU8VTZlPBaie9mYBtYAq_FrLB86jIbQsd9btVExoCe105tWQljGxmQVNuKBoKV7nOoTOjlewY59ibyAgA&_nc_zt=23&_nc_ht=scontent-lga3-3.xx&_nc_gid=TOzvsnndIUhWCD7E8EjsSg&oh=00_Afn3TsZue99CvvCMLY-sXncr9RGy0_srdj5U9kboEZK-Ng&oe=6956203D"
+      "avatar": "data/Kapi.png"
     },
     "rels": {
       "spouses": [
@@ -1124,7 +1134,7 @@
       "first name": "Sameer",
       "last name": "Desai",
       "birthday": "",
-      "avatar": "https://scontent-lga3-3.xx.fbcdn.net/v/t39.30808-6/565721050_10163957766218410_894756533090708090_n.jpg?stp=c0.79.720.720a_cp6_dst-jpg_s552x414_tt6&_nc_cat=108&ccb=1-7&_nc_sid=714c7a&_nc_ohc=z1lQu4asz_8Q7kNvwFKk4vZ&_nc_oc=Adn7N0Drq5M-b_fClEKScAEncfbbDxPJmuz1H_OL38H8asS2S6q1WpK7W6K1IDotCGd_50XUS7lwXsfRVmO0cIYk&_nc_zt=23&_nc_ht=scontent-lga3-3.xx&_nc_gid=L_IK8-Y9CBu98TwxACWnZA&oh=00_Afkev72NOZ-hWzXDPQEByrn9vTEDc8eCQTjEdmJg88QE8A&oe=695628BD"
+      "avatar": "data/Sameer.png"
     },
     "rels": {
       "spouses": [
@@ -1185,7 +1195,8 @@
       "gender": "F",
       "first name": "Sonam",
       "last name": "",
-      "birthday": ""
+      "birthday": "",
+      "avatar": "data/Sonam.png"
     },
     "rels": {
       "spouses": [
@@ -1204,7 +1215,7 @@
       "first name": "Saku",
       "last name": "",
       "birthday": "",
-      "avatar": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/503451094_29883950037919987_8283959339879223745_n.jpg?stp=c256.0.1536.1536a_dst-jpg_s552x414_tt6&_nc_cat=105&ccb=1-7&_nc_sid=969c58&_nc_ohc=85W2_avBjowQ7kNvwG6ldFs&_nc_oc=AdnAenJRdBHL-QkHB3t6su2FDuGLeNkOjMzViPvIfZCej9IAIRe4vamYdZuxresEFJBVEeMxKLUxN1vUIKEI-kRE&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=jgexiBvM1kdpM1-4f-4Cyw&oh=00_AfnqIssWnuacjiBhGoUPiIv8Y8CelTs8l-KP-CmqikSYkw&oe=695637A0"
+      "avatar": "data/Saku.png"
     },
     "rels": {
       "spouses": [
@@ -1245,7 +1256,8 @@
       "gender": "F",
       "first name": "Meena",
       "last name": "",
-      "birthday": ""
+      "birthday": "",
+      "avatar": "data/Meena.png"
     },
     "rels": {
       "spouses": [
@@ -1272,7 +1284,7 @@
       "first name": "Manoj",
       "last name": "",
       "birthday": "",
-      "avatar": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/492422153_3015435698604732_1912909414033121642_n.jpg?stp=c0.79.720.720a_dst-jpg_s552x414_tt6&_nc_cat=101&ccb=1-7&_nc_sid=50ad20&_nc_ohc=im0PT4nJ2JUQ7kNvwHoVY2N&_nc_oc=AdlIsF8_DluONSZgkepU1HrbUjk4r2xZ6qZV6ZSAXeRvl3UJIyvh4ZiBZrKH1a5pV109WvOOktdzboCs5-OgJBMC&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=qv9b6DR_jYCVXAfPP3X1-w&oh=00_AflQW1P67ul4XC0XbIv1ktmARoRxLB5ArvAMjSx9ArZ7SA&oe=69563E9F"
+      "avatar": "data/Manoj.png"
     },
     "rels": {
       "spouses": [
@@ -1453,7 +1465,7 @@
       "first name": "Neha",
       "last name": "",
       "birthday": "",
-      "avatar": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/278144062_2161098184046420_4685740114693008681_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=109&ccb=1-7&_nc_sid=e99d92&_nc_ohc=aHliejmpT2sQ7kNvwEUopR8&_nc_oc=AdmaT0Sn8EsEwuKQrPqepN3J-fGn9NAuyNL0SI4OkDISOtd0s-BNXWSdS-fgle9PLmuSZ7Z7GyauHWpAYmG6Kl8m&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=6Ar5xMa15xOYIMO3RoBIdg&oh=00_Afk0qb3dOHRUdveTTwtkX1lGW-KvwpHrdOvrUQYIUvDj6w&oe=6956139D"
+      "avatar": "data/Neha.png"
     },
     "rels": {
       "spouses": [
@@ -1474,7 +1486,8 @@
       "gender": "M",
       "first name": "Yash",
       "last name": "",
-      "birthday": ""
+      "birthday": "",
+      "avatar": "data/Yash.png"
     },
     "rels": {
       "parents": [
@@ -1512,7 +1525,7 @@
       "first name": "Veena",
       "last name": "",
       "birthday": "",
-      "avatar": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/509438110_24000667639570930_8330000418131127538_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=zcqRldk0o_8Q7kNvwFUC10J&_nc_oc=AdkX3PlrGyTMjYip9wt0DYfVr2LO4FT_i3EpT_OcHPxUKOMhMibaT6vmGZd2cjAPDXJ0sgo43yFRTiVVn2CirmKw&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=gB4lY3QyxTnucXHcO1f_Rg&oh=00_AfkJbQ_AtZblps85FmkwnXlRa77PB8q_NFHSSo_TAOy7Ug&oe=69564056"
+      "avatar": "/data/Vina.png"
     },
     "rels": {
       "spouses": [
@@ -1539,7 +1552,7 @@
       "first name": "Ranjan",
       "last name": "",
       "birthday": "",
-      "avatar": ""
+      "avatar": "data/Ranjan.png"
     },
     "rels": {
       "spouses": [
@@ -1566,7 +1579,7 @@
       "first name": "Urmila",
       "last name": "",
       "birthday": "",
-      "avatar": "https://scontent-lga3-2.xx.fbcdn.net/v/t1.6435-9/87382332_1572591459594202_1560864597961867264_n.jpg?stp=c0.79.720.720a_dst-jpg_s552x414_tt6&_nc_cat=105&ccb=1-7&_nc_sid=50ad20&_nc_ohc=lNkteoTlb14Q7kNvwEqU0iz&_nc_oc=AdlKAtrNJ9PybsHmffHGQphVbks2SAxaL4mH3hFoUBmMTxzgi2TGbBEjbExruXhl4ILJOeh5mi0KqoDIpYDULCYK&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=eYjXG0j8ABMyeke2nQbHPQ&oh=00_AfmiGMCbfYRG2Ug3yxQtBoaAIlPCWLcHPt6nVFhxk2gWXA&oe=6977C273"
+      "avatar": "data/Urmila.png"
     },
     "rels": {
       "spouses": [
@@ -1592,7 +1605,7 @@
       "first name": "Praful",
       "last name": "",
       "birthday": "",
-      "avatar": "https://scontent-lga3-3.xx.fbcdn.net/v/t39.30808-1/328560727_730003835381880_731701563379814672_n.jpg?stp=c0.0.1536.1536a_dst-jpg_s480x480_tt6&_nc_cat=106&ccb=1-7&_nc_sid=e99d92&_nc_ohc=i7-D0dt1m9EQ7kNvwFDztH0&_nc_oc=AdlrNxPk1aCs5vQKrJgBOP7pIZeoCc1RJkADhrXlyr2i3fLW2ONlOkR6CI9VG9izpLHVteMWi9sYR759eK8MvNXI&_nc_zt=24&_nc_ht=scontent-lga3-3.xx&_nc_gid=9YgdOS2PqYqbJ_Ov4V5QUw&oh=00_AfnTYHUCXQIkAjbjNbe7jM_Jd-8OkQX0aJIOIe2iTqHMFQ&oe=6956228D"
+      "avatar": "data/Praful.png"
     },
     "rels": {
       "spouses": [
@@ -1618,7 +1631,7 @@
       "first name": "Usha",
       "last name": "",
       "birthday": "",
-      "avatar": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/509435445_23997007293270298_745934654920569993_n.jpg?stp=dst-jpg_p552x414_tt6&_nc_cat=101&ccb=1-7&_nc_sid=cbf0e5&_nc_ohc=vTg3-LWeI40Q7kNvwFWAIvA&_nc_oc=Adm-RbTUtW4rz56fAWWE33mIlOE7UEmZDZ7CDg91bssmUciVdry4Oyb403wuT7SX2Za8P0VN8eMHqldm9lgjgtvw&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=Z0dNHtdgmfF4H3R62dE3QA&oh=00_AflDwlJ6KXBFkS4JTn6P19hZOVTzH12bhM7w32QKBG1dnA&oe=69564699"
+      "avatar": "data/Usha.png"
     },
     "rels": {
       "spouses": [
@@ -1646,7 +1659,7 @@
       "first name": "Rekha",
       "last name": "",
       "birthday": "",
-      "avatar": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/512431367_24013273308310363_2566017460712314206_n.jpg?stp=c0.79.720.720a_dst-jpg_s552x414_tt6&_nc_cat=102&ccb=1-7&_nc_sid=50ad20&_nc_ohc=z6K_-CqPT00Q7kNvwGvCC7c&_nc_oc=Adlpbj9BsPjBy4PMG5VtzpczSU5cz8FGWk5P7mY6mE4PpIHDcd5ruc_mNRIr9QQfKzspbpTCTHW47Cs-PAOhZ5oc&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=3sa2q0ZPKoT1WPWbLuZm2A&oh=00_Afle9O-9Ec-BIczeNGKq7ZGTyeJJs6bZhIrLZEyvyBGKxQ&oe=695632B3"
+      "avatar": "data/Rekha.png"
     },
     "rels": {
       "spouses": [
@@ -1672,7 +1685,7 @@
       "first name": "Gopi",
       "last name": "",
       "birthday": "",
-      "avatar": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/468006341_10169406962055696_3565734072157222500_n.jpg?stp=c0.169.1536.1536a_dst-jpg_s552x414_tt6&_nc_cat=100&ccb=1-7&_nc_sid=50ad20&_nc_ohc=LDdMkaS42iEQ7kNvwE_Hazo&_nc_oc=AdlLd8NEt10eZkjzgLNkbtau3rLtdl7IClebhYlBJHXTXOn_yM551e7cRWrgakJIOhEUgYG1EOTFzO8zkCV68xzK&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=5n69akDtumCfbjmtPyiHXg&oh=00_Afm9I8tqQg0hLWPzYz5a8oxLQYEDfZQ4g7kaSpCrxPavEg&oe=6956447A"
+      "avatar": "data/Gopi.png"
     },
     "rels": {
       "spouses": [
@@ -1698,7 +1711,8 @@
       "gender": "M",
       "first name": "Ramesh",
       "last name": "",
-      "birthday": ""
+      "birthday": "",
+      "avatar": "data/RameshLali.png"
     },
     "rels": {
       "spouses": [
@@ -1764,7 +1778,8 @@
       "gender": "M",
       "first name": "Alkesh",
       "last name": "",
-      "birthday": ""
+      "birthday": "",
+      "avatar": "data/Alkesh.png"
     },
     "rels": {
       "spouses": [
@@ -1824,7 +1839,8 @@
       "gender": "M",
       "first name": "Snehal",
       "last name": "",
-      "birthday": ""
+      "birthday": "",
+      "avatar": "data/Snehal.png"
     },
     "rels": {
       "spouses": [
@@ -1866,7 +1882,7 @@
       "first name": "Krishna",
       "last name": "",
       "birthday": "",
-      "avatar": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.6435-1/130488986_1121850538235266_3136198113523433500_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=102&ccb=1-7&_nc_sid=e99d92&_nc_ohc=gjRacCnKcFcQ7kNvwGCy-gR&_nc_oc=Adl6u2_vHUXrA9asyc58drNmE5HISDAXUgaKzUTfNqhvAIxp2ENM9esMCUAPFrzd3HmFfqjWODQp5kCRMXtPd5og&_nc_zt=24&_nc_ht=scontent-lga3-1.xx&_nc_gid=M6kFOKt17DGIdb0Z4syM2g&oh=00_Afl61H6sGVox9SQNLvrPDUUShc9ppPofVsCVVrgfvj-PVw&oe=6977A517"
+      "avatar": "data/Krishna.png"
     },
     "rels": {
       "spouses": [
@@ -1887,7 +1903,8 @@
       "gender": "M",
       "first name": "Ved",
       "last name": "",
-      "birthday": ""
+      "birthday": "",
+      "avatar": "data/Ved.png"
     },
     "rels": {
       "parents": [
@@ -1929,7 +1946,8 @@
       "gender": "F",
       "first name": "Jasmin",
       "last name": "",
-      "birthday": ""
+      "birthday": "",
+      "avatar": "data/Jasmin.png"
     },
     "rels": {
       "parents": [
@@ -1988,7 +2006,8 @@
       "gender": "M",
       "first name": "Jignesh",
       "last name": "",
-      "birthday": ""
+      "birthday": "",
+      "avatar": "data/Jignesh.png"
     },
     "rels": {
       "spouses": [
@@ -2009,7 +2028,8 @@
       "gender": "M",
       "first name": "Parth",
       "last name": "",
-      "birthday": ""
+      "birthday": "",
+      "avatar": "data/Parth.png"
     },
     "rels": {
       "parents": [
@@ -2091,7 +2111,8 @@
       "gender": "F",
       "first name": "Indu",
       "last name": "",
-      "birthday": ""
+      "birthday": "",
+      "avatar": "/data/Indu.png"
     },
     "rels": {
       "spouses": [
@@ -2114,7 +2135,7 @@
       "first name": "Kashmira",
       "last name": "",
       "birthday": "",
-      "avatar": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/485355156_2117204108731786_4913815774482856984_n.jpg?stp=c0.165.1500.1500a_dst-jpg_s552x414_tt6&_nc_cat=100&ccb=1-7&_nc_sid=50ad20&_nc_ohc=NDS6fU-wgl8Q7kNvwHXiRbC&_nc_oc=Adna9ateFUWoK210bd8PGQKrwRAm8Hct2nhNkN1Y7khzxZk7ag1OE0Ail9KQNorPzI6w0d5Me9ycMcxpAPtn7esW&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=jyHCh5oDVjIOd5JQfXtViw&oh=00_AfkMcxcd1U1g_87CKr96Jac0vOSW7k24gyinWxhLE-7cBA&oe=69560FA3"
+      "avatar": "data/Kashmira.png"
     },
     "rels": {
       "spouses": [
@@ -2168,7 +2189,7 @@
       "first name": "Mitesh",
       "last name": "",
       "birthday": "",
-      "avatar": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/488726022_2133799733738890_4371208324520433233_n.jpg?stp=c0.79.720.720a_cp6_dst-jpg_s552x414_tt6&_nc_cat=105&ccb=1-7&_nc_sid=50ad20&_nc_ohc=ILdv33B66o4Q7kNvwE3d64t&_nc_oc=AdnaktbfMfQv1cOf7viNkW7jDx2W5qdh9lx34zkgaDOh4xGglHJV3EkjhTnbmnqqItm1ZeFFMtXF7tovT5dg9A0C&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=_1XxeUeKhxBCsaKaeJjQTA&oh=00_Afnk-xcP8hwwcyxTzcVjxt3NNfiZGoEkdIx5dxeYYgiLLA&oe=695629FD"
+      "avatar": "data/Mitesh.png"
     },
     "rels": {
       "spouses": [
@@ -2211,7 +2232,7 @@
       "first name": "Pratham",
       "last name": "",
       "birthday": "",
-      "avatar": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/480918589_2101570733628457_1880375479308422057_n.jpg?stp=c0.169.1536.1536a_dst-jpg_s552x414_tt6&_nc_cat=102&ccb=1-7&_nc_sid=50ad20&_nc_ohc=AvX01sp1m3gQ7kNvwEMnR4Q&_nc_oc=Adl36nqjY1aAlFH8XcyCwnPX2XJTimCqzT5hHFnVyXnp7e6M0mtzQ43HO2QD42hRtCdnE4BtTTy1n-NqJk_TKwTH&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=5XjgKsRFkmMBsj6d_KWtcw&oh=00_Afk7WCCholuDUVNXMxz4tt1JxGc1P_8WXiwtz50gCX7IdA&oe=69562AFD"
+      "avatar": "data/Pratham.png"
     },
     "rels": {
       "parents": [
@@ -2318,7 +2339,7 @@
       "first name": "Tejal",
       "last name": "",
       "birthday": "",
-      "avatar": "https://media.licdn.com/dms/image/v2/C5603AQGZOeU_mpZUmg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1650807684285?e=1768435200&v=beta&t=MkFoh9R8ouwgaN38SUqML-ko-wIHz_25g_aH0_uaKL0"
+      "avatar": "data/Tejal.png"
     },
     "rels": {
       "spouses": [
@@ -2343,7 +2364,8 @@
       "gender": "F",
       "first name": "Megha",
       "last name": "",
-      "birthday": ""
+      "birthday": "",
+      "avatar": "data/Megha.png"
     },
     "rels": {
       "spouses": [
@@ -2366,7 +2388,7 @@
       "first name": "Aman",
       "last name": "",
       "birthday": "",
-      "avatar": "https://media.licdn.com/dms/image/v2/D5603AQGQQjZATvwMRg/profile-displayphoto-shrink_200_200/B56ZVrXEF4GUAY-/0/1741262964357?e=1768435200&v=beta&t=Rq-Au7PjCiXJYgym5C7U9n-PrRPn1w-sOcqGkjwiV5k"
+      "avatar": "data/Aman.png"
     },
     "rels": {
       "parents": [
@@ -2385,7 +2407,8 @@
       "gender": "F",
       "first name": "Aanvi",
       "last name": "",
-      "birthday": ""
+      "birthday": "",
+      "avatar": "data/Aanvi.png"
     },
     "rels": {
       "parents": [
@@ -2405,7 +2428,7 @@
       "first name": "Hiren",
       "last name": "Shah",
       "birthday": "",
-      "avatar": "https://scontent-lga3-3.xx.fbcdn.net/v/t39.30808-6/473770913_10114418394144359_7108851761109056118_n.jpg?stp=c22.0.422.422a_dst-jpg_s552x414_tt6&_nc_cat=110&ccb=1-7&_nc_sid=f2f09f&_nc_ohc=a4Xn2BS-rHgQ7kNvwEN8vxb&_nc_oc=AdlQPRRTZI2IjuUmDdKNLCmvpR76R1Zb-AwLRpd_XsB9GgVnZc06G0s6oqQvCcDBIc4StYS-ai-OaEfpVLHFDQNX&_nc_zt=23&_nc_ht=scontent-lga3-3.xx&_nc_gid=SnaUJRMyrqGsdZKFqUSGVQ&oh=00_Afn4NLRXVqZdhwuLgUmem6McJ2_yAjcGc90j39QRyAhhlA&oe=695620DF"
+      "avatar": "data/Hiren.png"
     },
     "rels": {
       "spouses": [
@@ -2450,7 +2473,8 @@
       "gender": "M",
       "first name": "Arjun",
       "last name": "",
-      "birthday": ""
+      "birthday": "",
+      "avatar": "data/Arjun.png"
     },
     "rels": {
       "parents": [
@@ -2493,7 +2517,7 @@
       "first name": "Chandrakant",
       "last name": "",
       "birthday": "",
-      "avatar": "https://scontent-lga3-1.xx.fbcdn.net/v/t1.6435-9/64314400_895519304124246_7769075322787463168_n.jpg?stp=dst-jpg_s552x414_tt6&_nc_cat=111&ccb=1-7&_nc_sid=fe5ecc&_nc_ohc=OJ4kAD8ftcMQ7kNvwEvH0QS&_nc_oc=Adl51SJFzezev5kbnB6iRf67gBGzU5zV8mxoWMTLYD93Mh7ZgYDNevOiozs0KHMqXw4ADk-POiJyfIpvMESZbKzn&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=TOzvsnndIUhWCD7E8EjsSg&oh=00_AfmZ2NW7tLTgKLcxVU54X5CHp3I08W1TSWDcLFqOueNVEg&oe=6977A80D"
+      "avatar": "data/Chandrakant.png"
     },
     "rels": {
       "spouses": [
@@ -2570,7 +2594,7 @@
       "first name": "Apurva",
       "last name": "Pandya",
       "birthday": "",
-      "avatar": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/518270314_10106344127933822_5299224488252676983_n.jpg?stp=c90.0.540.540a_dst-jpg_s552x414_tt6&_nc_cat=111&ccb=1-7&_nc_sid=969c58&_nc_ohc=7SRw3CCrhZgQ7kNvwGLfsK_&_nc_oc=Admd2bNDzVOBfptsQBOOdhmQ3N9th0kOstcDPlmtdgrMgeVKwtzXjbLInavctF2EmRe5ca9g0W0tozRrrDr0YrZt&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=GloTLbRK-FyjfRUSsT-5Tg&oh=00_AfnPC18-7i0Hfxz4U0pbZllBU0nCZ8deQPLOAWFlnKk37w&oe=695618FA"
+      "avatar": "data/Apurva.png"
     },
     "rels": {
       "spouses": [
@@ -2728,7 +2752,7 @@
       "first name": "Kajal",
       "last name": "",
       "birthday": "",
-      "avatar": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/462624610_8567565306659213_8743425538072461525_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=cf85f3&_nc_ohc=bgfxWheZk2kQ7kNvwGVWY9K&_nc_oc=AdlbCO3y5I12eANl-BSEKt4RynL8DKUZxxxLb1b4kyo0Lc_V8lUCGjeOn_soPmtWYtCBkJV60ZiF7s3e81_l1Tc4&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=ljEGa21Gf6miHDGQ5g0ygg&oh=00_AfkN4ueRW9DdzHI08iK5c2mfOzdDj-SoHZQiLI51yCYUPQ&oe=695644A3"
+      "avatar": "data/Kajal.png"
     },
     "rels": {
       "spouses": [
@@ -2824,7 +2848,7 @@
       "first name": "Nathan",
       "last name": "",
       "birthday": "",
-      "avatar": ""
+      "avatar": "data/Nathan.png"
     },
     "rels": {
       "spouses": [
