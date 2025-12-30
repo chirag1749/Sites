@@ -331,7 +331,7 @@
       "first name": "Trushar",
       "last name": "",
       "birthday": "",
-      "avatar": "https://media.licdn.com/dms/image/v2/C4E03AQGlaQXCztZifg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1522425738059?e=1768435200&v=beta&t=2UMQ8H8HCNq7enk_VaEN5ZSsCuUFwA2hUFb2bLmMlTI"
+      "avatar": "data/Trushar.png"
     },
     "rels": {
       "spouses": [
@@ -358,7 +358,7 @@
       "first name": "Paresh",
       "last name": "",
       "birthday": "",
-      "avatar": "https://media.licdn.com/dms/image/v2/D4D03AQFfN8DhLSfVuw/profile-displayphoto-shrink_400_400/B4DZVoJlS.G4Ag-/0/1741209101356?e=1768435200&v=beta&t=rwOCj3VtfLciVUJltt6XqYemxE5jKfNN-Two_h3P5tY"
+      "avatar": "data/Paresh.png"
     },
     "rels": {
       "spouses": [
@@ -2285,7 +2285,7 @@
     "id": "208a81f9-f764-47da-91cb-c7422afd2222",
     "data": {
       "gender": "M",
-      "first name": "?",
+      "first name": "Arnav",
       "last name": "",
       "birthday": "",
       "avatar": "data/HareshSon1.png"
@@ -2305,7 +2305,7 @@
     "id": "ac59fdcf-9318-4dfe-b0c9-0b165a293cdc",
     "data": {
       "gender": "M",
-      "first name": "?",
+      "first name": "Neel",
       "last name": "",
       "birthday": "",
       "avatar": "data/HareshSon2.png"
