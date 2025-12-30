@@ -87,7 +87,7 @@
       "first name": "Manu",
       "last name": "",
       "birthday": "",
-      "avatar": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/465067597_8942026492485563_2993572997159022295_n.jpg?stp=c0.140.537.537a_dst-jpg_s552x414_tt6&_nc_cat=102&ccb=1-7&_nc_sid=50ad20&_nc_ohc=g0IjF2nN7aEQ7kNvwH6RUNY&_nc_oc=Adk7mL2OZPG1iFgzqDgPztnG0UeiqcrcleIfyHgjzjH6f2yVDDmfsEOpUqnAA_-3U-bfd7Amo5PX_iqj9seQQFfK&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=2etTsuQZc2d0wm1_hrI-sQ&oh=00_AflIweqNBvhywf2SHoUdHhkR4W9seO0g6amsQkNVWYYKPA&oe=6956032C"
+      "avatar": "data/Manu.png"
     },
     "rels": {
       "spouses": [
@@ -272,7 +272,7 @@
       "first name": "Savita",
       "last name": "",
       "birthday": "",
-      "avatar": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/463672802_8871498279538385_2960789467146554359_n.jpg?stp=c0.81.716.716a_dst-jpg_s552x414_tt6&_nc_cat=101&ccb=1-7&_nc_sid=50ad20&_nc_ohc=qUPh7zI2KMYQ7kNvwHUXs3M&_nc_oc=AdlFUnCHJRE62EIWCqB9Ry3JpQujqLg2omKTamPM-gaKYG9G6YNGEhd9Wlu06laE4MReY3ZSQ-LmVoxMuu7hzWz-&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=lwxwmwP11UlqpG_TMTvbow&oh=00_AfmRA7auxDhiC4kCiXegSMFl2Ws416SC9gsaNwyWR2Na3g&oe=69563349"
+      "avatar": "data/BhabhiAuntie.png"
     },
     "rels": {
       "spouses": [
@@ -572,7 +572,7 @@
       "first name": "Narsi",
       "last name": "",
       "birthday": "",
-      "avatar": ""
+      "avatar": "data/Narsi.png"
     },
     "rels": {
       "spouses": [
@@ -869,7 +869,8 @@
       "gender": "F",
       "first name": "Savita",
       "last name": "",
-      "birthday": ""
+      "birthday": "",
+      "avatar": "data/Savi.png"
     },
     "rels": {
       "spouses": [
@@ -896,7 +897,8 @@
       "gender": "M",
       "first name": "Ravji",
       "last name": "",
-      "birthday": ""
+      "birthday": "",
+      "avatar": "data/Ravji.png"
     },
     "rels": {
       "spouses": [
@@ -1233,7 +1235,8 @@
       "gender": "M",
       "first name": "Shanti",
       "last name": "",
-      "birthday": ""
+      "birthday": "",
+      "avatar": "data/Shantilal.png"
     },
     "rels": {
       "spouses": [
@@ -1335,7 +1338,8 @@
       "gender": "M",
       "first name": "Ramesh",
       "last name": "",
-      "birthday": ""
+      "birthday": "",
+      "avatar": "data/RameshMeena.png"
     },
     "rels": {
       "spouses": [
