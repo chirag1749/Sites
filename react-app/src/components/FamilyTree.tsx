@@ -183,7 +183,7 @@ export default class FamilyTree extends Component<FamilyTreeProps> {
       const id = d?.data?.id || "";
       baseCardClick.call(f3Card, e, d);
 
-      if (d.data.rels.children.length > 7 || id === "0") {
+      if (d.data.rels.children.length > 7 || id === "0" || id === "0fa5c6bc-5b58-40f5-a07e-d787e26d8b56") {
         f3Chart.setProgenyDepth(1);
         if (id === "0") {
           this.showChildrenSpouses = true;
